@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class StudentRecordSystem {
     // Database credentials
     static final String DB_URL = "jdbc:mysql://localhost:3306/student_db";
-    static final String USER = "sahithi";
-    static final String PASS = "93saHI@mysql"; 
+    static final String USER = "########";
+    static final String PASS = "########"; 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -134,21 +134,22 @@ public class StudentRecordSystem {
     }
 }
 
-/*
+
  * --- MySQL Setup ---
- * 
- * CREATE DATABASE student_db;
- * USE student_db;
- * 
- * CREATE TABLE students (
- *     roll_no INT PRIMARY KEY,
- *     name VARCHAR(50),
- *     email VARCHAR(50),
- *     department VARCHAR(30),
- *     cgpa FLOAT
- * );
- * 
+
+  CREATE DATABASE student_db;
+  USE student_db;
+  
+  CREATE TABLE students (
+      roll_no INT PRIMARY KEY,
+      name VARCHAR(50),
+      email VARCHAR(50),
+      department VARCHAR(30),
+      cgpa FLOAT
+  );
+  
  */
+
 
 
 
